@@ -17,7 +17,6 @@ $('#analyze').click(function (e) {
 		  $("#day p").text(data);
 		  $("#commiter p").text(data);
 		  
-		  
 		});
 
   }else{

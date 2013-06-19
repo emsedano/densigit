@@ -25,7 +25,6 @@ var Density = (function(){
 				return commitsPerUser(data);
 			else
 				return null;
-
 		}
 	}  
 })(); 
