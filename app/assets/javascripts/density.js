@@ -4,10 +4,43 @@ var Density = (function(){
 	var BY_USER = "user";
 
 	var commitsPerDay = function( data ){
-		
+		var store = {};
+
+		for( idx in data){
+			
+			var commit = data[idx].commit.committer;
+
+			var d = new Date(commit.date);
+			var ds = d.toLocaleDateString();
+			
+			//Start counting
+			if(!store[ds])
+				store[ds] = 1;
+			else
+				store[ds] += 1;
+			
+		}
+		return store;
 	}
 
 	var commitsPerUser = function( data ){
+
+		var store = {};
+
+		for( idx in data){
+			
+			var commit = data[idx].commit.committer;
+
+			var ds = commit.name;
+
+			//Start counting
+			if(!store[ds])
+				store[ds]= 1;
+			else
+				store[ds] += 1;
+			
+		}
+		return store;
 		
 	}
 
