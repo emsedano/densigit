@@ -3,8 +3,8 @@ Densigit::Application.routes.draw do
   # first created -> highest priority.
   root :to => 'home#index'
 
-  match '/about',   to: 'home#about'
-  match '/contact', to: 'home#contact'
+  match '/about',   to: 'home#about', via: :get
+  match '/contact', to: 'home#contact', via: :get
   
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
