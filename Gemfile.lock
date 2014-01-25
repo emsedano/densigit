@@ -48,16 +48,10 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
-<<<<<<< HEAD
     mime-types (1.25.1)
     minitest (4.7.5)
     multi_json (1.8.4)
     mysql2 (0.3.14)
-=======
-    mime-types (1.23)
-    multi_json (1.7.7)
-    pg (0.12.2)
->>>>>>> 8ffe258505d34bfad94256f3c63cda9610584862
     polyglot (0.3.3)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -122,13 +116,8 @@ DEPENDENCIES
   bootstrap-sass (= 2.1)
   coffee-rails (~> 4.0.0)
   jquery-rails (= 2.0.2)
-<<<<<<< HEAD
   mysql2
   rails (= 4.0.0)
-=======
-  pg (= 0.12.2)
-  rails (= 3.2.13)
->>>>>>> 8ffe258505d34bfad94256f3c63cda9610584862
   rspec-rails (= 2.11.0)
   sass-rails (~> 4.0.0)
   uglifier (>= 1.0.3)
