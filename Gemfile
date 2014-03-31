@@ -18,6 +18,7 @@ end
 
 group :development, :test do
   gem 'rspec-rails', '2.11.0'
+  gem 'sqlite3', '1.3.5'
 end
 
 group :production do
