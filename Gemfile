@@ -6,7 +6,7 @@ gem 'rails', '4.0.0'
 gem 'bootstrap-sass', '2.1'
 gem 'jquery-rails', '2.0.2'
 
-gem 'sqlite3', '1.3.5'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -18,7 +18,7 @@ end
 
 group :development, :test do
   gem 'rspec-rails', '2.11.0'
-  
+  gem 'sqlite3', '1.3.5'
 end
 
 group :production do
