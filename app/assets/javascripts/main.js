@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 
 
 var charData = [];
@@ -100,6 +102,5 @@ function zoomChart() {
 
 }
 
-
-
+});
 
